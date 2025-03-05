@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEE Advanced 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for smooth transitions */
+        .transition-smooth {
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-500 text-white sticky top-0 z-50">
+        <nav class="container mx-auto flex items-center justify-between p-4">
+            <a href="#" class="text-lg font-bold">JEE Advanced 2025</a>
+            <ul class="flex space-x-4">
+                <li><a href="#overview" class="hover:text-blue-200 transition-smooth">Overview</a></li>
+                <li><a href="#registration" class="hover:text-blue-200 transition-smooth">Registration</a></li>
+                <li><a href="#institutes" class="hover:text-blue-200 transition-smooth">Institutes</a></li>
+                <li><a href="#brochure" class="hover:text-blue-200 transition-smooth">Brochure</a></li>
+                <li><a href="#faq" class="hover:text-blue-200 transition-smooth">FAQs</a></li>
+                <li><a href="#contact" class="hover:text-blue-200 transition-smooth">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview" class="container mx-auto p-8">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold text-blue-600 mb-4">JEE Advanced 2025</h1>
+                <p class="text-lg text-gray-700 mb-6">
+                    The Joint Entrance Examination (JEE) Advanced is conducted for admission to various undergraduate programs across IITs.
+                </p>
+                <img src="https://picsum.photos/id/1025/800/400" alt="JEE Advanced Overview" class="mx-auto rounded-lg shadow-lg">
+                <div class="mt-8">
+                    <h2 class="text-2xl font-semibold text-blue-500 mb-4">Important Dates</h2>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Registration Starts: <span class="font-medium">May 1, 2025</span></li>
+                        <li>Registration Ends: <span class="font-medium">May 31, 2025</span></li>
+                        <li>Exam Date: <span class="font-medium">June 15, 2025</span></li>
+                    </ul>
+                    <div class="mt-6 space-x-4">
+                        <a href="#registration" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition-smooth">
+                            Register Now
+                        </a>
+                        <a href="#brochure" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full transition-smooth">
+                            Download Brochure
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="registration" class="bg-white py-12">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-blue-600 mb-6 text-center">Registration Form</h2>
+                <form id="registrationForm" class="max-w-lg mx-auto bg-gray-100 p-8 rounded-lg shadow-md">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Full Name</label>
+                        <input type="text" id="name" name="name" required
+                               class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        <p id="nameError" class="text-red-500 text-xs italic hidden">Please enter your full name.</p>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email Address</label>
+                        <input type="email" id="email" name="email" required
+                               class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        <p id="emailError" class="text-red-500 text-xs italic hidden">Please enter a valid email address.</p>
+                    </div>
+                    <div class="mb-4">
+                        <label for="phone" class="block text-gray-700 text-sm font-bold mb-2">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required
+                               class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        <p id="phoneError" class="text-red-500 text-xs italic hidden">Please enter a valid phone number.</p>
+                    </div>
+                    <div class="mb-6">
+                        <label for="dob" class="block text-gray-700 text-sm font-bold mb-2">Date of Birth</label>
+                        <input type="date" id="dob" name="dob" required
+                               class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    </div>
+                    <button type="submit"
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition-smooth">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section id="institutes" class="py-12 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-blue-600 mb-6 text-center">Participating Institutes</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Example Institute Card -->
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <h3 class="text-xl font-semibold text-blue-500 mb-2">IIT Bombay</h3>
+                        <p class="text-gray-700">Indian Institute of Technology Bombay is a public technical and research university located in Powai, Mumbai.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <h3 class="text-xl font-semibold text-blue-500 mb-2">IIT Delhi</h3>
+                        <p class="text-gray-700">Indian Institute of Technology Delhi is a public technical and research university located in Hauz Khas, Delhi.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <h3 class="text-xl font-semibold text-blue-500 mb-2">IIT Madras</h3>
+                        <p class="text-gray-700">Indian Institute of Technology Madras is a public technical and research university located in Chennai, Tamil Nadu.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="brochure" class="py-12">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-blue-600 mb-6">Download Brochure</h2>
+                <p class="text-lg text-gray-700 mb-4">Get detailed information about JEE Advanced 2025 by downloading our brochure.</p>
+                <a href="#" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full transition-smooth inline-block">
+                    Download Now
+                </a>
+            </div>
+        </section>
+
+        <section id="faq" class="py-12 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-blue-600 mb-6 text-center">Frequently Asked Questions</h2>
+                <div class="space-y-4">
+                    <!-- Example FAQ Item -->
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <h3 class="text-xl font-semibold text-blue-500 mb-2">What is the eligibility criteria?</h3>
+                        <p class="text-gray-700">Candidates must have qualified JEE Main 2025 and should be among the top candidates.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-4">
+                        <h3 class="text-xl font-semibold text-blue-500 mb-2">How can I apply for JEE Advanced 2025?</h3>
+                        <p class="text-gray-700">You can apply through the online registration portal available on this website.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-12">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-blue-600 mb-6 text-center">Contact Us</h2>
+                <form class="max-w-lg mx-auto bg-gray-100 p-8 rounded-lg shadow-md">
+                    <div class="mb-4">
+                        <label for="contactName" class="block text-gray-700 text-sm font-bold mb-2">Name</label>
+                        <input type="text" id="contactName" name="contactName" required
+                               class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    </div>
+                    <div class="mb-4">
+                        <label for="contactEmail" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                        <input type="email" id="contactEmail" name="contactEmail" required
+                               class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4" required
+                                  class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+                    </div>
+                    <button type="submit"
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition-smooth">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-blue-500 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 JEE Advanced. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('registrationForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            let isValid = true;
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+
+            if (!name) {
+                document.getElementById('nameError').classList.remove('hidden');
+                isValid = false;
+            } else {
+                document.getElementById('nameError').classList.add('hidden');
+            }
+
+            if (!email || !/^\S+@\S+\.\S+$/.test(email)) {
+                document.getElementById('emailError').classList.remove('hidden');
+                isValid = false;
+            } else {
+                document.getElementById('emailError').classList.add('hidden');
+            }
+
+            if (!phone || !/^\d{10}$/.test(phone)) {
+                document.getElementById('phoneError').classList.remove('hidden');
+                isValid = false;
+            } else {
+                document.getElementById('phoneError').classList.add('hidden');
+            }
+
+            if (isValid) {
+                alert('Registration Successful!');
+                // Here you can add code to submit the form data to a server
+            }
+        });
+    </script>
+</body>
+</html>
